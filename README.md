@@ -31,7 +31,7 @@ Tous les programmes demandés sont à réaliser sous Qt (sous Linux).
 <p>
   - Aucun attribut
   • Méthode **'SaisirNom(int) : string'** : méthode qui prend en paramètre le numéro du joueur à qui on demande de saisir son nom. Elle renvoie une chaine qui contient le nom du joueur.
-  • Méthode **'afficherjeuAllumettes(int) : void'** : méthode qui prend en paramètre le nombre d'allumettes à afficher, et qui affiche les allumettes à l'écran.
+  • Méthode ** 'afficherjeuAllumettes(int) : void' ** : méthode qui prend en paramètre le nombre d'allumettes à afficher, et qui affiche les allumettes à l'écran.
   • Méthode **jouerUnCoup(int, string) : int'** : méthode qui prend en paramètre un entier correspond au nombre d'allumettes restantes et une chaine qui contient le nom du joueur qui va jouer. Elle renvoie un entier qui contient le nombre d'allumettes retirées par le joueur seulement après avoir testé si la saisie est correcte.
   • Méthode **'afficherVainqueur(string) : void'** : méthode qui prend en paramètre une chaine qui contient le nom du vainqueur pour l'afficher.
 </p>
