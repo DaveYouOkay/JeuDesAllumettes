@@ -28,16 +28,16 @@ Tous les programmes demandés sont à réaliser sous Qt (sous Linux).
 </p>
 
 #### **Classe IHMJoueur :**
-<p>
+
   - Aucun attribut
   • Méthode **'SaisirNom(int) : string'** : méthode qui prend en paramètre le numéro du joueur à qui on demande de saisir son nom. Elle renvoie une chaine qui contient le nom du joueur.
   • Méthode **'afficherjeuAllumettes(int) : void'** : méthode qui prend en paramètre le nombre d'allumettes à afficher, et qui affiche les allumettes à l'écran.
   • Méthode **jouerUnCoup(int, string) : int'** : méthode qui prend en paramètre un entier correspond au nombre d'allumettes restantes et une chaine qui contient le nom du joueur qui va jouer. Elle renvoie un entier qui contient le nombre d'allumettes retirées par le joueur seulement après avoir testé si la saisie est correcte.
   • Méthode **'afficherVainqueur(string) : void'** : méthode qui prend en paramètre une chaine qui contient le nom du vainqueur pour l'afficher.
-</p>
+  
 
 #### **Classe CUjeuAllumettes :**
-<p>
+
   - **nom[2] : string** : tableau contenant 2 chaines qui stockent les noms des joueurs.
   - **nbreAllumettes : int** : entier qui contient le nombre d'allumettes restantes.
   - **joueurEnCours : int** : entier qui contient le numéro du joueur qui joue ou va jouer. (0 joueur n°1, 1 : joueur n°2, etc...)
@@ -46,7 +46,7 @@ Tous les programmes demandés sont à réaliser sous Qt (sous Linux).
   • **tirageAleatoire(mini : int, maxi :int)** : void : méthode qui tire un nombre aléatoire entre 'mini' et 'maxi' et qui l'affecte à 'nbreAllumettes' (début du jeu)
   • **changerJoueur() : void** : méthode qui change de joueur en modifiant l'attribut 'joueurEnCours'
   • **JouerUnePartie() : void** : méthode principale du jeu qui est appelée pour lancer le jeu. Elle contient une boucle qui fait jouer les participants à tour de rôle tant qu'il n'y a pas de vainqueur.
-</p>
+
 
 Vous devrez utiliser des exceptions :
 #### **Les Exceptions**
