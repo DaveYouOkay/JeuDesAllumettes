@@ -42,7 +42,7 @@ Tous les programmes demandés sont à réaliser sous Qt (sous Linux).
   - - **joueurEnCours : int** : entier qui contient le numéro du joueur qui joue ou va jouer. (0 joueur n°1, 1 : joueur n°2, etc...).
   - - **ihm : IHMjoueur:** objet de classe IHMJoueur qui permet d'afficher des messages à l'écran.
   - **CUjeuAllumettes()** : constructeur de la classe.
-  - **tirageAleatoire(mini : int, maxi :int)** : void : méthode qui tire un nombre aléatoire entre 'mini' et 'maxi' et qui l'affecte à 'nbreAllumettes' (début du jeu).
+  - **tirageAleatoire(mini : int, maxi :int) : void** : méthode qui tire un nombre aléatoire entre 'mini' et 'maxi' et qui l'affecte à 'nbreAllumettes' (début du jeu).
   - **changerJoueur() : void** : méthode qui change de joueur en modifiant l'attribut 'joueurEnCours'.
   - **JouerUnePartie() : void** : méthode principale du jeu qui est appelée pour lancer le jeu. Elle contient une boucle qui fait jouer les participants à tour de rôle tant qu'il n'y a pas de vainqueur.
 
