@@ -18,7 +18,9 @@ Tous les programmes demandés sont à réaliser sous Qt (sous Linux).
 ![image](https://user-images.githubusercontent.com/97070339/215148630-e1ea09cd-6056-4abb-bd2b-475d27ccb138.png)
 
 </p>
+
 #### Remarques:
+
 <p>
   - Aucune méthode de la classe 'CUjeuAllumettes' ne doit contenir d'instructions accédant à l'écran ou au clavier (cout, cin, ...)
   - La fonction 'main ()' reste inchangée par rapport à la version précédente.
